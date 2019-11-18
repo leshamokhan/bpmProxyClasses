@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a44b3c39-9556-4151-a8b8-1bec1d781735" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
+  <MetadataSources>
+    <MetadataSource Address="http://shedko.beesender.com/0/serviceModel/entitydataservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="cc2ea2d2-80f6-4417-a1cc-fa4e1a88822c" SourceId="1" SourceUrl="http://shedko.beesender.com/0/serviceModel/entitydataservice.svc" />
+  </Metadata>
+  <Extensions />
+  <Parameters>
+    <Parameter Name="ClientAssemblyReference" Value="C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\Microsoft.Data.Services.Client.dll" />
+    <Parameter Name="SpatialAssemblyReference" Value="C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\System.Spatial.dll" />
+    <Parameter Name="ODataLibraryAssemblyReference" Value="C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\Microsoft.Data.OData.dll" />
+    <Parameter Name="EdmLibraryAssemblyReference" Value="C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\Microsoft.Data.Edm.dll" />
+    <Parameter Name="Version" Value="3.0" />
+  </Parameters>
+</ReferenceGroup>
